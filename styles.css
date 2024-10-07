@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5e95c2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #5c7f9c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Стили для страницы "Как фотографировать" */
+.composition-tips {
+    /* Добавьте стили для блока с советами по композиции */
+}
+
+.lighting-tips {
+    /* Добавьте стили для блока с советами по освещению */
+}
+
+.camera-tips {
+    /* Добавьте стили для блока с советами по использованию камеры */
+}
+
+/* Стили для страницы "Фотоальбом" */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-gallery img {
+    width: 30%;
+    margin: 1.66%;
+    float: left; /* Использование float */
+}
+
+/* Стили для страницы "Контакты" */
+.contact-form {
+    /* Добавьте стили для формы контактов */
+}
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+    .photo-gallery img {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-gallery img {
+        width: 100%;
+        margin: 0;
+    }
+}
